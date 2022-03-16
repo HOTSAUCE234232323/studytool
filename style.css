@@ -1,0 +1,20 @@
+#dropdown{
+  display: none;
+  list-style: none;
+  padding: 2%;
+}
+#question0{
+  display: none;
+}
+#question{
+  outline: none;
+}
+#end{
+  outline: none;
+}
+#Study{
+  display: none;
+}
+#quiz{
+  display: none;
+}
