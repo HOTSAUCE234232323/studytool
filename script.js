@@ -76,7 +76,7 @@ console.log(question)
         }
       
       document.querySelector("#Study").onclick = () => {
-        document.querySelector("#topic").innerHTML = "Francis I Valois"
+        document.querySelector("#topic").innerHTML = "Charles Lindbergh's transatlantic flight"
         document.querySelector("#short-summary").innerHTML = "Lindbergh took off in the Spirit from Roosevelt Airfield, Garden City, New York, and landed 33 hours, 30 minutes later at Aéroport Le Bourget in Paris, France, a distance of approximately 3,600 miles (5,800 km).";
         }
       }
