@@ -21,7 +21,7 @@ console.log(question)
     document.getElementById("Study").style.display = "none";
       document.querySelector("#question").innerHTML = "";
       document.querySelector("#question").innerHTML = "A few months after this conflict, two belligerents quarreled over the sinking of the Eilat. Gunnar Jarring's peace mission after this war partly failed due to the <b>three nos</b> of the Khartoum Resolution. After losing this war, a leader ceded power to his vice-president Zakaria Mohieddin, but popular support drew him back to office. UN Security Council Resolution 242 dealt with the territorial exchanges in this war, which began with an attack on 25 different (*)) airfields after the Straits of Tiran were closed. In this conflict, the Sinai Peninsula and the Gaza Strip were seized from Gamal Abdel Nassers Egypt. This war was fought six years prior to the Yom Kippur War. For 10 points, name this 1967 victory for Israel over its Arab enemies, concluded in less than a week.";    getanswers.onclick = () => {
-        if(answer.value == "Six-Day War", "June War", "Third Arab-Israeli War"){
+        if(answer.value === "Six-Day War"){
        document.querySelector("#question").innerHTML = "";
           document.querySelector("#end").innerHTML = "Correct";
         }else{
@@ -88,7 +88,7 @@ console.log(question)
     document.getElementById("Study").style.display = "none";
       document.querySelector("#question").innerHTML = "";
       document.querySelector("#question").innerHTML = "A governor of this state who advocated a policy of “pay-as-you-go-liberalism” was the early head of an “Eastern Establishment” in the Republican Party. An influential faction of moderate Republicans was named after another governor of this state, who lost the 1964 Republican primary to (*) Barry Goldwater. The National Guard responded with excessive force to a 1971 prison riot at Attica in this state. Gerald Ford’s vice president was former governor of this state Nelson Rockefeller, who adopted this state’s “stop-and-frisk” policy. For 10 points, name this state which has recently been led by Mario and Andrew Cuomo.";    getanswers.onclick = () => {
-        if(answer.value == "New York State", "New York"){
+        if(answer.value == "New York State"){
        document.querySelector("#question").innerHTML = "";
           document.querySelector("#end").innerHTML = "Correct";
          answer.value = "";
@@ -99,8 +99,8 @@ console.log(question)
         }
       
       document.querySelector("#Study").onclick = () => {
-        document.querySelector("#topic").innerHTML = "Francis I Valois"
-        document.querySelector("#short-summary").innerHTML = "Francois I was King of France from 1515 until his death in 1547. He was the son of Charles, Count of Angoulême, and Louise of Savoy. He succeeded his first cousin once removed and father-in-law Louis XII, who died without a son.";
+        document.querySelector("#topic").innerHTML = "New York State"
+        document.querySelector("#short-summary").innerHTML = "The history of New York begins around 10,000 B.C. when the first people arrived. By 1100 A.D. two main cultures had become dominant as the Iroquoian and Algonquian developed. European discovery of New York was led by the Italian Giovanni da Verrazzano in 1524 followed by the first land claim in 1609 by the Dutch. As part of New Netherland, the colony was important in the fur trade and eventually became an agricultural resource thanks to the patroon system. In 1626 the Dutch thought they had bought the island of Manhattan from Native Americans.[1] In 1664, England renamed the colony New York, after the Duke of York and Albany, brother of King Charles II. New York City gained prominence in the 18th century as a major trading port in the Thirteen Colonies.";
         }
       }
     }
