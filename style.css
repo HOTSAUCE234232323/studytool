@@ -13,3 +13,12 @@
 #quiz{
   display: none;
 }
+#topic{
+  text-align: center;
+}
+#question{
+  text-align: center;
+}
+#short-summary{
+  text-align: center;
+}
